@@ -2,7 +2,9 @@ import React from 'react'
 
 const first = () => {
   return (
-    <div>first</div>
+    <div>
+      hii 2 nd conflict
+    </div>
   )
 }
 
