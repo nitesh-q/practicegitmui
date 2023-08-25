@@ -9,6 +9,7 @@ import Muiradiobutton from './Muiradiobutton';
 import Muicheckbox from './Muicheckbox';
 import Muiswitch from './Muiswitch';
 import MuiBox from './MuiBox';
+import Muicard from './Muicard';
 
 const theme = createTheme({
   palette: {
@@ -23,7 +24,7 @@ const Home = () => {
  
   return (
     <div>
-      <h1>This is the home page</h1>
+      {/* <h1>This is the home page</h1>
       <Link to="create">Click to view our about page</Link>
       <Link to="contact">Click to view our contact page</Link>
 
@@ -38,7 +39,7 @@ const Home = () => {
 
       <Button
       >Hii
-      </Button>
+      </Button> */}
 
       {/* <BatteryCharging20Icon />
       <ButtonPractice/>
@@ -47,7 +48,8 @@ const Home = () => {
       <Muiradiobutton/>
       <Muicheckbox/>
       <Muiswitch/> */}
-      <MuiBox/>
+      {/* <MuiBox/> */}
+      {/* <Muicard/> */}
     </div>
   )
 }
