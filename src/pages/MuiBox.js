@@ -1,11 +1,11 @@
 import React from 'react'
-import { Box, Stack, Divider, Grid } from '@mui/material'
+import { Box, Stack, Divider, Grid,Paper } from '@mui/material'
 
 // <stack> is here.
 // box is like <div> here you can use sx for stying
 const MuiBox = () => {
     return (
-        <>
+        <Paper sx={{padding:"32px"}} elevation={9}>
             <Stack
                 sx={{ border: '1px solid' }}
                 direction='row'
@@ -40,7 +40,7 @@ const MuiBox = () => {
                 <Grid item xs={12} sm={6}><Box bgcolor='primary.light' p={2}>item 3</Box></Grid>
                 <Grid item xs={12} sm={6}><Box bgcolor='primary.light' p={2}>item 4</Box></Grid>
             </Grid>
-        </>
+        </Paper>
     )
 }
 
